@@ -2,7 +2,7 @@
 
 **Start with Docker**
 ### Download Pretrained Weights
-Download the [Pretrained Weights](https://drive.google.com/file/d/1Z4JOley0SJCb35kFF4PCc6N6P1ftfX4i/view) to `models/` directory
+Download the [Pretrained Weights](https://drive.google.com/file/d/1Z4JOley0SJCb35kFF4PCc6N6P1ftfX4i/view) to `models/drag_nuwa_svd.pth` 
 ### Build Image
 ```
 docker build -t dragnuwa .
