@@ -1,5 +1,19 @@
 # DragNUWA
 
+** Start with Docker **
+### Download Pretrained Weights
+Download the [Pretrained Weights](https://drive.google.com/file/d/1Z4JOley0SJCb35kFF4PCc6N6P1ftfX4i/view) to `models/` directory
+### Build Image
+```
+docker build -t dragnuwa .
+```
+### Get Start
+```
+docker run  -p 7860:7860 --name dragnuwaui --gpus all dragnuwa
+```
+
+
+
 **DragNUWA** enables users to manipulate backgrounds or objects within images directly, and the model seamlessly translates these actions into **camera movements** or **object motions**, generating the corresponding video.
 
 See our paper:   [DragNUWA: Fine-grained Control in Video Generation by Integrating Text, Image, and Trajectory](https://arxiv.org/abs/2308.08089)
